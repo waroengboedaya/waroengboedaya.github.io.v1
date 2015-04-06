@@ -4,7 +4,7 @@ email:       waroengboedaya@gmail.com
 author:      Albert Hardy
 description: "Waroeng Boedaya website"
 baseurl:     ""
-url:         "http://waroengboedaya.github.io"
+url:         "http://waroeng.boedaya.com"
 
 # Google analytics
 google_analytics: UA-124394-15
