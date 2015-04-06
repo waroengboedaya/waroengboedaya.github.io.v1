@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+
+I'm a designer with interests and skills in  User Experience and Development. I am keen to improve our ability to use technology in interacting, understanding and helping each other.
+
+
+<ul>
+{% for page in site.pages %}
+{% if page.resource == true %}
+{% for pc in page.categories %}
+{% if pc == "projects" %}
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% endif %}   <!-- cat-match-p -->
+{% endfor %}  <!-- page-category -->
+{% endif %}   <!-- resource-p -->
+{% endfor %}  <!-- page -->
+</ul>
+
+##Original
+
+{% for page in site.pages %}
+
+    {% if page.layout == 'project' %}  
+<div class="post">
+<a href="{{ page.url | prepend: site.baseurl }}" class="post-link">
+<h3 class="post-title">{{ page.title }}</h3>
+<p class="post-summary">{{ page.summary }}</p>
+</a>
+</div>
+    {% endif %}
+{% endfor %}
+<div class="home">
+<!-- 
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3 class="h2 post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %} -->
+</div>
+<!-- <nav><ul>
+{% for node in site.pages %}
+  {% if node.title != nil and node.url != '/' %}
+  {% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
+  <li><a {% if nodediff != page.url %}class="active" {% endif %}href="{{ node.url }}">{{ node.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul></nav> -->

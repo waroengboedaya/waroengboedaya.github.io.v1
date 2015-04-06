@@ -1,0 +1,53 @@
+# Site settings
+title:       Waroeng Boedaya
+email:       waroengboedaya@gmail.com
+author:      Albert Hardy
+description: "Waroeng Boedaya website"
+baseurl:     ""
+url:         "http://waroengboedaya.github.io"
+
+# Google analytics
+google_analytics: UA-124394-15
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: true
+github_username:
+stackoverflow_id:
+twitter_username: 
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     1
+sass:
+  compressed: true
+pygments:  false
+highlighter:  null
+
+# https://github.com/jekyll/jekyll/issues/920
+include: ['_pages']
+
+# http://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category
+category-list: [featured, projects]
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+#- jekyll-sitemap
