@@ -1,7 +1,7 @@
 ---
 resource: true
 layout: project
-title: "Chatty - Smart Assistant"
+title: "Chatty"
 categories: [featured]
 summary: "Delivering Smart Nation capability without Internet connectivity"
 achievement: "Best Use of Government Data (API), Best Use of Smart Living API and Best in Show - Smart Nation API CoLAB 2015"

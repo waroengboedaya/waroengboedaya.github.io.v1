@@ -6,7 +6,7 @@ modified:
 categories: [projects]
 summary: "Simplifying urban exploration and resource coordination through the intersection of space and time."
 #date: 2015-02-01T10:57:38+08:00
-permalink: "/venn/"
+permalink: "/project/venn/"
 ---
 
 *Intersection of space and time.*

@@ -10,7 +10,7 @@ type: []
 image:
   feature:
 #date: 2014-11-18T10:57:38+08:00
-permalink: "/foodtrek/"
+permalink: "/project/foodtrek/"
 ---
 
 *Resource Management and Map Visualisation System.*

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Things that I've designed
+title: Things that we've designed
 permalink: /projects/
 sitemap:
   lastmod: 2014-01-23

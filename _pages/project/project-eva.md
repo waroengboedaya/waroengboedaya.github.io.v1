@@ -3,7 +3,7 @@ resource: true
 layout: project
 title: "EVA"
 categories: [featured]
-summary: "Minimizing domestic food waste through highly opinionated grocery tracking, reminder and educational app."
+summary: "Minimize domestic food waste through highly opinionated grocery tracking, reminder and educational app."
 achievement: "Tied 2nd Runner Up and Best Tech NEA Clean and Green Hackathon 2014"
 date: 2014-11-16T00:00:00+08:00
 permalink: "/project/eva/"
